@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 
-<header th:replace="~{cabecalho :: head('Detalhe do produto')}"></header>
+<header th:replace="~{cabecalho :: head('Detalhe do prova')}"></header>
 <body>
 	<nav th:replace="~{menu :: nav}"></nav>
 	<div class="container">
-		<h3 class="text-center">Detalhe do produto</h3>
-		<form action="/produtos" method="POST">
+		<h3 class="text-center">Detalhe do prova</h3>
+		<form action="/provas" method="POST">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="input-group mb-3 input-group-sm">
 						<span class="input-group-text">Nome</span> <input type="text"
-							th:placeholder="${produto.nome}" readonly class="form-control">
+							th:placeholder="${prova.nome}" readonly class="form-control">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="input-group mb-3 input-group-sm">
 						<span class="input-group-text">Quantidade</span> <input
-							type="text" th:placeholder="${produto.quantidade}" readonly
+							type="text" th:placeholder="${prova.quantidade}" readonly
 							class="form-control">
 					</div>
 				</div>
@@ -26,14 +26,14 @@
 				<div class="col-md-6">
 					<div class="input-group mb-3 input-group-sm">
 						<span class="input-group-text">Valor</span> <input type="text"
-							readonly th:placeholder="${produto.valor}" class="form-control">
+							readonly th:placeholder="${prova.valor}" class="form-control">
 					</div>
 				</div>
 			</div>
 		</form>
 		<div class="row">
 			<div class="col-md-12">
-				<a href="/produtos">Voltar</a>
+				<a href="/provas">Voltar</a>
 			</div>
 
 		</div>

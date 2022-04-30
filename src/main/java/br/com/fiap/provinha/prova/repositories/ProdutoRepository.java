@@ -1,8 +1,8 @@
-package br.com.fiap.appprodutoteste.produto.repositories;
+package br.com.fiap.provinha.prova.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import br.com.fiap.appprodutoteste.produto.model.Produto;
+import br.com.fiap.provinha.prova.model.Produto;
 
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {

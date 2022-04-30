@@ -7,11 +7,11 @@
 		<version>2.6.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap.appprodutoteste</groupId>
-	<artifactId>produto</artifactId>
+	<groupId>br.com.fiap.provinha</groupId>
+	<artifactId>prova</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>produto</name>
-	<description>cadastro e gerenciamento de produtos</description>
+	<name>prova</name>
+	<description>cadastro e gerenciamento de provas</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

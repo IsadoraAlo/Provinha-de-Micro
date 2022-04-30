@@ -1,4 +1,4 @@
-package br.com.fiap.appprodutoteste.produto.model;
+package br.com.fiap.provinha.prova.model;
 
 import java.math.BigDecimal;
 

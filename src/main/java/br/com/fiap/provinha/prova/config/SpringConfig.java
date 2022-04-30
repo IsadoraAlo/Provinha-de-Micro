@@ -1,4 +1,4 @@
-package br.com.fiap.appprodutoteste.produto.config;
+package br.com.fiap.provinha.prova.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

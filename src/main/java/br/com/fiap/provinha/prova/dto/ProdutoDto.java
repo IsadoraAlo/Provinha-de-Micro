@@ -1,4 +1,4 @@
-package br.com.fiap.appprodutoteste.produto.dto;
+package br.com.fiap.provinha.prova.dto;
 
 import java.math.BigDecimal;
 

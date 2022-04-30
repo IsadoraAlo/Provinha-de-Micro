@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:th="http://www.thymeleaf.org">
 
-<header th:replace="~{cabecalho :: head('Cadastrar produtos')}"></header>
+<header th:replace="~{cabecalho :: head('Cadastrar provas')}"></header>
 <body>
 <nav th:replace="~{menu :: nav}"></nav>
 	<div class="container mt-3">
-		<form th:object="${produtoDto}" action="/produtos" method="POST">
+		<form th:object="${provaDto}" action="/provas" method="POST">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="input-group mb-3 input-group-sm">

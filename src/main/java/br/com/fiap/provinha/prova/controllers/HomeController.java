@@ -1,4 +1,4 @@
-package br.com.fiap.appprodutoteste.produto.controllers;
+package br.com.fiap.provinha.prova.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
