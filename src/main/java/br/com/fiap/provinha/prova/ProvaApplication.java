@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({"br.com.fiap.provinha.prova.controllers, br.com.fiap.provinha.prova.config"})
-public class ProdutoApplication {
+public class ProvaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutoApplication.class, args);
+		SpringApplication.run(ProvaApplication.class, args);
 	}
 
 }
