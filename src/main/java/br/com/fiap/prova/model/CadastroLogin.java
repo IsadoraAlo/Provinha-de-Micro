@@ -1,4 +1,4 @@
-package br.com.fiap.provinha.prova.model;
+package br.com.fiap.prova.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

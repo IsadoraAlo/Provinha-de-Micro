@@ -1,4 +1,4 @@
-package br.com.fiap.provinha.prova.controllers;
+package br.com.fiap.prova.controllers;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
-import br.com.fiap.provinha.prova.dto.ProdutoDto;
-import br.com.fiap.provinha.prova.model.Produto;
-import br.com.fiap.provinha.prova.repositories.ProdutoRepository;
+import br.com.fiap.prova.dto.ProdutoDto;
+import br.com.fiap.prova.model.Produto;
+import br.com.fiap.prova.repositories.ProdutoRepository;
 
 
 @Controller

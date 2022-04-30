@@ -1,4 +1,4 @@
-package br.com.fiap.provinha.prova.dto;
+package br.com.fiap.prova.dto;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

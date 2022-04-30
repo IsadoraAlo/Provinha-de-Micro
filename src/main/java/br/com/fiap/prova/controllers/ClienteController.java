@@ -1,4 +1,4 @@
-package br.com.fiap.provinha.prova.controllers;
+package br.com.fiap.prova.controllers;
 
 import java.util.List;
 
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.com.fiap.provinha.prova.dto.ClienteDto;
-import br.com.fiap.provinha.prova.model.Cliente;
-import br.com.fiap.provinha.prova.repositories.ClienteRepository;
+import br.com.fiap.prova.dto.ClienteDto;
+import br.com.fiap.prova.model.Cliente;
+import br.com.fiap.prova.repositories.ClienteRepository;
 
 @Controller
 public class ClienteController {

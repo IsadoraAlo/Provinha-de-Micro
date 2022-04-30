@@ -1,4 +1,4 @@
-package br.com.fiap.provinha.prova.controllers;
+package br.com.fiap.prova.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
